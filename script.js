@@ -24,4 +24,4 @@ showSlide(prevIndex);
 setInterval(nextSlide, 10000); // Change slide every 10 seconds
 
 // Initialize
-showSlide(0);
+// showSlide(0);

@@ -17,7 +17,6 @@
                         <!-- Left: Logo, subtitle, heading -->
                         <div class="flex flex-col justify-start items-start flex-[1.2] pl-16 pt-16">
                             <img src="images/Landing A/Logo-gustave-roussy@2x.png" alt="Gustave Roussy Logo" class="w-56 h-auto mb-4 filter brightness-0 invert" />
-                            <span class="text-xs text-white tracking-widest leading-tight mb-10">CANCER CAMPUS<br>GRAND PARIS</span>
                             <h2 class="text-4xl font-bold leading-tight text-white uppercase text-left font-sans mb-0 mt-8">À 30 ANS,<br>TOUT COMMENCE.</h2>
                         </div>
                         <!-- Right: Donate button, video block -->
@@ -62,7 +61,6 @@
                         <div class="flex-[1.2] text-white p-10 pt-10 flex flex-col justify-start">
                             <div class="mb-6">
                                 <img src="images/Landing A/Logo-gustave-roussy@2x.png" alt="Gustave Roussy Logo" class="w-44 h-auto mb-2 filter brightness-0 invert" />
-                                <span class="text-xs text-gray-300 tracking-wider leading-tight">CANCER CAMPUS<br>GRAND PARIS</span>
                             </div>
                             <div class="mt-10">
                                 <h2 class="text-3xl font-bold leading-tight text-white uppercase text-left font-sans">À 30 ANS,<br>TOUT COMMENCE.<br><span class="block mt-2 text-white font-bold uppercase">QUAND POUR D'AUTRES,<br>TOUT BASCULE.</span></h2>
@@ -115,6 +113,77 @@
         <button class="absolute top-1/2 left-8 transform -translate-y-1/2 bg-gray-900/70 text-white border-none text-4xl rounded-full w-14 h-14 flex items-center justify-center cursor-pointer z-20 transition-colors shadow-lg nav-arrow" onclick="previousSlide()">&#10094;</button>
         <button class="absolute top-1/2 right-8 transform -translate-y-1/2 bg-gray-900/70 text-white border-none text-4xl rounded-full w-14 h-14 flex items-center justify-center cursor-pointer z-20 transition-colors shadow-lg nav-arrow" onclick="nextSlide()">&#10095;</button>
     </div>
+    <section class="relative w-full h-[650px] m-24 rounded-3xl overflow-hidden">
+        <!-- Background Image -->
+        <img src="images/Landing A/Visuel-1.png" alt="Jeune adulte patient" class="absolute inset-0 w-full h-full object-cover rounded-3xl z-0" />
+        
+        <!-- Overlay for readability -->
+        <div class="absolute inset-0 bg-gradient-to-r from-white/90 via-white/80 to-transparent z-10 rounded-3xl"></div>
+        
+        <!-- Text Content Overlay: left half only -->
+        <div class="relative z-20 flex items-center h-full w-full">
+            <div class="w-full md:w-1/2 pl-8 pr-8 md:pl-16 md:pr-8 flex flex-col justify-center ">
+                <h2 class="text-4xl font-normal text-gray-700 leading-tight mb-1 tracking-wide">AUGMENTATION INEXPLIQUÉE <br>DES CAS DE CANCER</h2>
+                <h3 class="text-4xl font-bold text-gray-800 mb-4 tracking-wide">CHEZ LES JEUNES ADULTES</h3>
+                <p class="text-gray-700 text-lg leading-relaxed mb-3 max-w-xl">
+                    À 30 ans, les projets sont infinis : acheter son premier appartement,<br> obtenir une promotion au travail, fonder une famille, voyager...<br>
+                    À 30 ans, tout commence, quand pour d'autres, tout bascule... avec <br>l'annonce d'un cancer.
+                </p>
+                <div class="mb-4 max-w-xl">
+                    <p class="text-gray-700 text-lg leading-relaxed mb-2">
+                        Le constat est préoccupant avec <span class="font-bold">une hausse des cas de cancer<br></span> chez les jeunes adultes (entre 20 et 40 ans) ainsi que du nombre<br> de décès associés : <span class="font-bold">+27,7 %* .<br></span>
+                    </p>
+                    <p class="text-cyan-600 font-bold text-lg uppercase tracking-wide">
+                        IL S'AGIT D'UN ENJEU DE SANTÉ PUBLIQUE MAJEUR !
+                    </p>
+                </div>
+                <div class=" rounded-lg p-4 mb-4 max-w-2xl">
+                    <p class="text-gray-700 text-lg ">
+                        En tant qu'acteur reconnu en cancérologie, <span class="font-bold">Gustave Roussy lance <br>l'alerte</span> et mobilise ses moyens et ses talents médico-scientifiques <br>avec <span class="font-bold">le programme précurseur « Un cancer à 30 ans »</span>. Notre<br> objectif est de comprendre les causes favorisant l'apparition du<br> cancer parmi cette tranche d'âge, ce qui nous permettra de<br> développer des traitements sur mesure pour ces patients et de<br> sauver plus de vies, tout en préservant leur qualité de vie.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Below Image Section: Only the call-to-action remains -->
+    
+    <section class="w-full px-4 md:px-12 mb-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex md:grid-cols-2 gap-8 items-start">
+                <!-- Left Column: Heading and Buttons -->
+                <div class="flex flex-col items-start gap-6">
+                    <div class="mb-2 pl-8">
+                        <span class="block text-cyan-600 text-2xl md:text-4xl font-semibold leading-tight">POURQUOI UNE</span>
+                        <span class="block text-cyan-600 text-2xl md:text-4xl font-extrabold leading-tight">TELLE AUGMENTATION&nbsp;?</span>
+                    </div>
+                    <div class="flex flex-row gap-4 mt-2">
+                        <button class="bg-pink-600 text-white rounded-full px-6 py-2 text-base font-semibold shadow flex items-center hover:bg-pink-700 transition donation-button">
+                            <img src="images/Landing A/picto coeur.svg" alt="Heart" class="w-5 h-5 mr-2" /> JE FAIS UN DON RÉGULIER
+                        </button>
+                        <button class="bg-pink-600 text-white rounded-full px-6 py-2 text-base font-semibold shadow flex items-center hover:bg-pink-700 transition donation-button">
+                            <img src="images/Landing A/picto coeur.svg" alt="Heart" class="w-5 h-5 mr-2" /> JE FAIS UN DON PONCTUEL
+                        </button>
+                    </div>
+                </div>
+                <!-- Right Column: Two Rows -->
+                <div class="flex flex-col gap-x-5 pl-16">
+                    <p class="text-gray-600 text-base break-words">
+                        Exposition aux polluants environnementaux, prise d'antibiotiques<br> dans l'enfance, perturbateurs endocriniens, sédentarité, alimentation, prédispositions génétiques… <span class="font-bold text-gray-800">De nombreuses hypothèses sont avancées, il est urgent d'agir !</span>
+                    </p>
+                    <p class="text-cyan-600 font-bold text-base md:text-lg leading-snug">
+                        MAIS POUR RÉUSSIR, VOTRE DON EST INDISPENSABLE :<br>
+                        LA RECHERCHE NE SE FERA PAS SANS VOUS !
+                    </p>
+                </div>
+            </div>
+            <div class="text-center text-xl font-semibold mt-8">
+                <span class="text-gray-700 font-bold">1236</span> PERSONNES ONT RÉPONDU À NOTRE APPEL. <span class="text-cyan-600 font-bold">REJOIGNEZ-LES !</span>
+            </div>
+        </div>
+    </section>
+
     <script src="script.js"></script>
     
     
